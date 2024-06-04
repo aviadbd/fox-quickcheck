@@ -265,7 +265,7 @@
 
 @implementation FOXSequence (LazyConstructors)
 
-+ (instancetype)lazySequenceFromBlock:(id<FOXSequence>(^)())block
++ (instancetype)lazySequenceFromBlock:(id<FOXSequence>(^)(void))block
 {
     return [[FOXLazySequence alloc] initWithLazyBlock:block];
 }

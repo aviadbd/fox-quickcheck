@@ -1,5 +1,5 @@
-#import "FOXMacros.h"
-#import "FOXPropertyResult.h"
+#import <Fox/FOXMacros.h>
+#import <Fox/FOXPropertyResult.h>
 
 
 @protocol FOXGenerator;

@@ -1,4 +1,4 @@
-#import "FOXStateMachine.h"
+#import <Fox/FOXStateMachine.h>
 
 
 @protocol FOXStateTransition;

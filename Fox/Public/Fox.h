@@ -1,45 +1,45 @@
 // protocols
-#import "FOXStateMachine.h"
-#import "FOXStateTransition.h"
-#import "FOXRandom.h"
-#import "FOXGenerator.h"
+#import <Fox/FOXStateMachine.h>
+#import <Fox/FOXStateTransition.h>
+#import <Fox/FOXRandom.h>
+#import <Fox/FOXGenerator.h>
 
 // data structures
-#import "FOXSequence.h"
-#import "FOXRoseTree.h"
-#import "FOXRunnerResult.h"
-#import "FOXCommand.h"
-#import "FOXExecutedCommand.h"
-#import "FOXTransition.h"
-#import "FOXPropertyResult.h"
+#import <Fox/FOXSequence.h>
+#import <Fox/FOXRoseTree.h>
+#import <Fox/FOXRunnerResult.h>
+#import <Fox/FOXCommand.h>
+#import <Fox/FOXExecutedCommand.h>
+#import <Fox/FOXTransition.h>
+#import <Fox/FOXPropertyResult.h>
 
 // generators
-#import "FOXCoreGenerators.h"
-#import "FOXNumericGenerators.h"
-#import "FOXStringGenerators.h"
-#import "FOXSetGenerators.h"
-#import "FOXArrayGenerators.h"
-#import "FOXDictionaryGenerators.h"
-#import "FOXPropertyGenerators.h"
-#import "FOXStateMachineGenerators.h"
-#import "FOXGenericGenerators.h"
+#import <Fox/FOXCoreGenerators.h>
+#import <Fox/FOXNumericGenerators.h>
+#import <Fox/FOXStringGenerators.h>
+#import <Fox/FOXSetGenerators.h>
+#import <Fox/FOXArrayGenerators.h>
+#import <Fox/FOXDictionaryGenerators.h>
+#import <Fox/FOXPropertyGenerators.h>
+#import <Fox/FOXStateMachineGenerators.h>
+#import <Fox/FOXGenericGenerators.h>
 
 // stateful testers
-#import "FOXFiniteStateMachine.h"
+#import <Fox/FOXFiniteStateMachine.h>
 
 // randomizers
-#import "FOXConstantRandom.h"
-#import "FOXDeterministicRandom.h"
+#import <Fox/FOXConstantRandom.h>
+#import <Fox/FOXDeterministicRandom.h>
 
 // runner
-#import "FOXRunner.h"
-#import "FOXEnvironment.h"
-#import "FOXDebugging.h"
+#import <Fox/FOXRunner.h>
+#import <Fox/FOXEnvironment.h>
+#import <Fox/FOXDebugging.h>
 
 // reporters
-#import "FOXStandardReporter.h"
-#import "FOXDebugReporter.h"
+#import <Fox/FOXStandardReporter.h>
+#import <Fox/FOXDebugReporter.h>
 
 // DSL
-#import "FOXMacros.h"
-#import "FOXDSL.h"
+#import <Fox/FOXMacros.h>
+#import <Fox/FOXDSL.h>

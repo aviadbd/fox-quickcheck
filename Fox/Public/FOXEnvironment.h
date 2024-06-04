@@ -1,4 +1,4 @@
-#import "FOXMacros.h"
+#import <Fox/FOXMacros.h>
 
 /*! The default number of tests (which is 500).
  *

@@ -1,4 +1,4 @@
-#import "FOXMacros.h"
+#import <Fox/FOXMacros.h>
 
 @protocol FOXGenerator;
 @class FOXRunnerResult;

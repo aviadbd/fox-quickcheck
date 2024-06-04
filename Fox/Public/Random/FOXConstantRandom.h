@@ -1,4 +1,4 @@
-#import "FOXDeterministicRandom.h"
+#import <Fox/FOXDeterministicRandom.h>
 
 
 @interface FOXConstantRandom : NSObject <FOXRandom>

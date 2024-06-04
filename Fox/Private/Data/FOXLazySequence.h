@@ -1,7 +1,7 @@
 #import "FOXSequence.h"
 
 
-typedef id<FOXSequence>(^FOXLazySequenceBlock)();
+typedef id<FOXSequence>(^FOXLazySequenceBlock)(void);
 
 @interface FOXLazySequence : FOXSequence
 

@@ -58,7 +58,7 @@
  */
 @interface FOXSequence (LazyConstructors)
 
-+ (instancetype)lazySequenceFromBlock:(id<FOXSequence>(^)())block;
++ (instancetype)lazySequenceFromBlock:(id<FOXSequence>(^)(void))block;
 + (instancetype)lazyUniqueSequence:(id<FOXSequence>)sequence;
 
 @end

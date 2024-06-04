@@ -1,4 +1,4 @@
-#import "FOXCommand.h"
+#import <Fox/FOXCommand.h>
 
 @interface FOXExecutedCommand : NSObject
 

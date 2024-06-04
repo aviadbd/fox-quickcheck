@@ -1,4 +1,4 @@
-#import "FOXStateTransition.h"
+#import <Fox/FOXStateTransition.h>
 
 
 @interface FOXTransition : NSObject <FOXStateTransition>
