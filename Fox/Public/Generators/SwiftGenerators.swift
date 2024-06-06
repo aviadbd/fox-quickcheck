@@ -37,7 +37,7 @@ public func genMap(generator: FOXGenerator, mapfn: @escaping (FOXRoseTree) -> FO
     }
 }
 
-public func map(generator: FOXGenerator, fn: @escaping (Any?) -> AnyObject?) -> FOXGenerator {
+public func map(generator: FOXGenerator, fn: @escaping (Any?) -> Any?) -> FOXGenerator {
     return FOXMap(generator) { value in
         return fn(value)
     }
