@@ -20,7 +20,7 @@ extension XCTestCase {
                 maxSize: maxSize)
 
             if !result!.succeeded {
-                XCTFail("Property failed with: \(result!.singleLineDescriptionOfSmallestValue()!)",
+                XCTFail("Property failed with: \(result!.singleLineDescriptionOfSmallestValue()!), seed: \(theSeed)",
                     file: file, line: line)
             }
     }
